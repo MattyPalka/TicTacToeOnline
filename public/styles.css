@@ -13,6 +13,10 @@ body{
 
 .chat-window {
     margin-top: 15px;
+    background-color: #fff;
+    min-height: 90vh;
+    max-height: 90vh;
+    position: relative;
 }
 
 .message-form { 

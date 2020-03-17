@@ -8,8 +8,8 @@ Could staying alone be more social?
 
 
 # TODO!
- 1. Make chat working (socket connection, updating the DOM, etc)
- 2. Add login (probably at this stage the prompt message to put user name is OK)
+ 1. ~~Make chat working (socket connection, updating the DOM, etc)~~
+ 2. ~~Add login (probably at this stage the prompt message to put user name is OK)~~
  3. Create game logic locally 
   * object drawing
   * clicking on the right box 
