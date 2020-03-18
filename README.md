@@ -11,10 +11,13 @@ Could staying alone be more social?
  1. ~~Make chat working (socket connection, updating the DOM, etc)~~
  2. ~~Add login (probably at this stage the prompt message to put user name is OK)~~
  3. Create game logic locally 
-  * object drawing
-  * clicking on the right box 
+  * ~~object drawing~~
+  * ~~clicking on the right box~~ 
   * find winner and advrtise it
-  * play in turn (probably in the later stage when there is a socket connection so we can determine, who (what socket) had their turn)
+  * ~~play in turn~~
+  * reset the game 
+  * in the later stage when there is a socket connection so we can determine, who (what socket) had their turn
+  * see if box already selected. I'm thinking maybe a good idea is to have a nested array with Xs and Os and that way it can be determined, who won, and also if the box was already selected
  4. Move game logic to the server, handle everthing on it except drawing
  5. Add nice UI login, probably on modal, that can also handle if the person whats to connect to a room or start (see next point) a new one
   * I don't think there is any reason for the auth login for this game, but this may be something to consider at the later stage 
