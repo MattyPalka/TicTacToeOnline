@@ -21,10 +21,6 @@ function drawDivisionLines() {
 }
 
 document.querySelector("#restart-button").addEventListener('click', () => {
-    context.clearRect(0,0, canvas.width, canvas.height)
-    drawDivisionLines()
-    turn = 0
-
-    //TODO WHEN ACTUALLY IMPLEMENTED: 
-    // * ADD SCORE? * RESET THE ARRAY WITH FIELDS 
+    gameReset()
 })
+

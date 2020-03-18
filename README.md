@@ -15,7 +15,8 @@ Could staying alone be more social?
   * ~~clicking on the right box~~ 
   * find winner and advrtise it
   * ~~play in turn~~
-  * reset the game 
+  * ~~reset the game~~
+  * reset game after advertised win 
   * in the later stage when there is a socket connection so we can determine, who (what socket) had their turn
   * see if box already selected. I'm thinking maybe a good idea is to have a nested array with Xs and Os and that way it can be determined, who won, and also if the box was already selected
  4. Move game logic to the server, handle everthing on it except drawing

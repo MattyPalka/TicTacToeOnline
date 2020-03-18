@@ -83,3 +83,12 @@ function getMousePosition(canvas, evt){
         y: (evt.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height
     };
 }
+
+function gameReset(){
+    context.clearRect(0,0, canvas.width, canvas.height)
+    drawDivisionLines()
+    turn = 0
+
+    //TODO WHEN ACTUALLY IMPLEMENTED: 
+    // * ADD SCORE? * RESET THE ARRAY WITH FIELDS 
+}
