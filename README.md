@@ -19,8 +19,11 @@ Could staying alone be more social?
  5. Add nice UI login, probably on modal, that can also handle if the person whats to connect to a room or start (see next point) a new one
   * I don't think there is any reason for the auth login for this game, but this may be something to consider at the later stage 
  6. Create rooms and if there are more then two players push the next connection to another room (there cannot be more than two people playing in the same room at the same time, against the rules (and common sense)):
-  * probably what needs to happen is to have a UI element with the rooms so you can connect to the room that you want
-  * or it can be achieved with uuid (or some other random number) so that the user can be asked to what room they want to join the game
+  * I think the easiest thing to achieve room max capacity is to have a username list in the room class and then check for the length of it
+  * probably what needs to happen is to have a UI element with the rooms so you can connect to the room that you want or it can be achieved with uuid (or some other random number / TBH. Having more think about it it doesn't have to be random, can be just incremental) so that the user can be asked to what room they want to join the game
+  * also there's a possibility that the room can be private, so maybe password option when login to a room
  7. Polish UI
+ 8. There are namespaces created already, and this can be extended to have more games on the server under different namespaces ideas for future games:
+  * Hangman
   
  
