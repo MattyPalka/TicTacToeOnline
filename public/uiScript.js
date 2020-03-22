@@ -21,6 +21,6 @@ function drawDivisionLines() {
 }
 
 document.querySelector("#restart-button").addEventListener('click', () => {
-    gameReset()
+    nsSocket.emit('resetGame', null)
 })
 

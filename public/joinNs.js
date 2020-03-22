@@ -30,6 +30,16 @@ function joinNs(endpoint) {
     })
 
     document.querySelector(".message-form").addEventListener('submit', formSubmission)
+
+    nsSocket.on('drawCircle', (data) => {
+        drawCircle(data)
+    })
+    
+    nsSocket.on('drawCross', (data) => {
+        drawCross(data)
+    })
+
+    nsSocket.on('clearRect', gameReset)
 }
 
 function formSubmission(event) {
